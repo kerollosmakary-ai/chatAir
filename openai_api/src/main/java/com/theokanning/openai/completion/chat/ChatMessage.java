@@ -30,4 +30,8 @@ public class ChatMessage {
 	@JsonProperty("reasoning_content")
 	String reasoningContent;
 
+	public ChatMessage(String role, String content) {
+		this(role, content, null);
+	}
+
 }
