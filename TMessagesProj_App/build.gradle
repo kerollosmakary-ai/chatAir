@@ -23,8 +23,9 @@ dependencies {
 }
 
 android {
-    compileSdkVersion 34
-    buildToolsVersion '34.0.0'
+    namespace 'info.flyun.chatair'
+    compileSdkVersion 35
+    buildToolsVersion '35.0.0'
 
     defaultConfig.applicationId = APP_PACKAGE
 
@@ -48,9 +49,6 @@ android {
         }
     }
 
-    dexOptions {
-        jumboMode = true
-    }
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
@@ -222,8 +220,8 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 19
-        targetSdkVersion 34
+        minSdkVersion 21
+        targetSdkVersion 35
         versionName APP_VERSION_NAME
         ndkVersion "21.4.7075529"
 
@@ -234,7 +232,7 @@ android {
         externalNativeBuild {
             cmake {
                 version '3.10.2'
-                arguments '-DANDROID_STL=c++_static', '-DANDROID_PLATFORM=android-16', "-j=16"
+                arguments '-DANDROID_STL=c++_static', '-DANDROID_PLATFORM=android-21'
             }
         }
     }
