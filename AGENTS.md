@@ -28,3 +28,5 @@ ChatAir is a native Android app (Java 11) for ChatGPT, Gemini, Claude, and DeepS
 - Kotlin metadata version mismatch warnings during lint are from transitive dependencies and do not affect the build.
 - There are **no unit or instrumented tests** in this codebase. Validation is done through build + lint + APK inspection.
 - This is a client-only Android app. There are no backend services, databases, or Docker dependencies to start.
+- The `gradle.properties` must NOT use `-XX:MaxPermSize` (removed in Java 9+). If you see this flag, remove it.
+- Always export `JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64` before running Gradle commands.
