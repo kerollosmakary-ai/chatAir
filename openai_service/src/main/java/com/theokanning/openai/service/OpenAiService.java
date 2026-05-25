@@ -46,6 +46,7 @@ import com.theokanning.openai.moderation.ModerationResult;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -114,6 +115,10 @@ public class OpenAiService {
      */
     public OpenAiService(final String token) {
         this(token, DEFAULT_TIMEOUT, BASE_URL, LLMType.openAi);
+    }
+
+    public OpenAiService(final String token, final Duration timeout) {
+        this(token, timeout.getSeconds(), BASE_URL, LLMType.openAi);
     }
 
     /**
