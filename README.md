@@ -17,8 +17,9 @@ ChatAir is a native Android app for ChatGPT, Gemini, Claude, and DeepSeek, provi
 <img src = "https://github.com/flyun/chatAir/blob/chatair/ScreenShots/04.png" width ="260" />
 <img src = "https://github.com/flyun/chatAir/blob/chatair/ScreenShots/05.png" width ="260" />
 <img src = "https://github.com/flyun/chatAir/blob/chatair/ScreenShots/06.png" width ="260" />
-<img src = "https://github.com/flyun/chatAir/blob/chatair/ScreenShots/07.png" width ="260" />
+<img src = "https://github.ccom/flyun/chatAir/blob/chatair/ScreenShots/07png" width ="260" />
 <img src = "https://github.com/flyun/chatAir/blob/chatair/ScreenShots/08.png" width ="260" />
+<img src = "ht
 </div>
 
 ## Installation
